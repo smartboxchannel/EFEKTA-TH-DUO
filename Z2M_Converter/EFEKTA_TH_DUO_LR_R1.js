@@ -144,7 +144,11 @@ const fzLocal = {
 			if (msg.data.hasOwnProperty('measuredValue')) {
 			    const humidity = parseFloat(msg.data['measuredValue']) / 100.0;
 			    const prope = postfixWithEndpointName('humidity', msg, model, meta);
+				if(prope == 'humidity_2'){
+				return {[prope]: humidity - 8.0};
+				}else{
 			    return {[prope]: humidity};
+				}
 			}
         },
     },
@@ -155,7 +159,7 @@ const definition = {
         model: 'EFEKTA_TH_DUO_LR',
         vendor: 'EFEKTALAB',
         description: 'EFEKTA_TH_DUO_LR - Smart device with internal and external temperature and humidity sensor and with a signal amplifier. Thermostat and hygrostat. Self-contained, powered by 2 AAA batteries',
-        fromZigbee: [fz.temperature, fz.humidity, fz.battery, fzLocal.node_config, fzLocal.termostat_config, fzLocal.hydrostat_config],
+        fromZigbee: [fz.temperature, fzLocal.humidity, fz.battery, fzLocal.node_config, fzLocal.termostat_config, fzLocal.hydrostat_config],
         toZigbee: [tz.factory_reset, tzLocal.node_config, tzLocal.termostat_config, tzLocal.hydrostat_config],
 		meta: {multiEndpoint: true},
         configure: async (device, coordinatorEndpoint, logger) => {
