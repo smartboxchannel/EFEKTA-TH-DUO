@@ -4,18 +4,18 @@ https://wiki.spruthub.ru/index.php?title=%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0
 
 Продажа DIY Устройств - https://t.me/diydevmart
 
-Описание: https://telegra.ph/Datchik-temperatury-i-vlazhnosti-vozduha-EFEKTA-THTH-LR-v2-01-18
+Описание: https://telegra.ph/Datchik-temperatury-i-vlazhnosti-vozduha-EFEKTA-DUO--DUO-LR-03-06
 
-![EFEKTA TH v2 Temperature and humidity sensor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-TH-v2/main/Images/photo_2023-12-02_19-53-02.jpg) 
+![EFEKTA TH DUO Temperature and humidity sensor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-TH-DUO/main/Images/01.jpg) 
 
-![EFEKTA TH v2 Temperature and humidity sensor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-TH-v2/main/Images/sh05.png) 
+![EFEKTA TH v2 Temperature and humidity sensor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-TH-DUO/main/Images/sh00.png) 
 
-![EFEKTA TH v2 Temperature and humidity sensor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-TH-v2/main/Images/sh01.png) 
+![EFEKTA TH v2 Temperature and humidity sensor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-TH-DUO/main/Images/sh01.png) 
 
-![EFEKTA TH v2 Temperature and humidity sensor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-TH-v2/main/Images/sh02.png) 
+![EFEKTA TH v2 Temperature and humidity sensor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-TH-DUO/main/Images/sh02.png) 
 
-![EFEKTA TH v2 Temperature and humidity sensor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-TH-v2/main/Images/sh03.png) 
+![EFEKTA TH v2 Temperature and humidity sensor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-TH-DUO/main/Images/sh02_1.png) 
 
-![EFEKTA TH v2 Temperature and humidity sensor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-TH-v2/main/Images/sh04.png) 
+![EFEKTA TH v2 Temperature and humidity sensor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-TH-DUO/main/Images/sh03.png) 
 
-![EFEKTA TH v2 Temperature and humidity sensor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-TH-v2/main/Images/sh06.png) 
+![EFEKTA TH v2 Temperature and humidity sensor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-TH-DUO/main/Images/sh04.png) 
