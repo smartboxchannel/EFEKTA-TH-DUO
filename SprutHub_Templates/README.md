@@ -8,7 +8,7 @@ https://wiki.spruthub.ru/index.php?title=%D0%94%D0%BE%D0%B1%D0%B0%D0%B2%D0%BB%D0
 
 ![EFEKTA TH DUO Temperature and humidity sensor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-TH-DUO/main/Images/01.jpg) 
 
-![EFEKTA TH v2 Temperature and humidity sensor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-TH-DUO/main/Images/sh00.png) 
+![EFEKTA TH v2 Temperature and humidity sensor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-TH-DUO/main/Images/sh000.png) 
 
 ![EFEKTA TH v2 Temperature and humidity sensor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-TH-DUO/main/Images/sh01.png) 
 
