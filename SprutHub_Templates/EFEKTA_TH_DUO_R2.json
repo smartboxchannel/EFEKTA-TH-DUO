@@ -2,7 +2,7 @@
   "name": "Датчик EFEKTA TH DUO",
   "manufacturer": "EfektaLab",
   "model": "EFEKTA_TH_DUO",
-  "manufacturerId": "EfektaLab",
+  "manufacturerId": "(EfektaLab|EfektaLab_for_Zigbee-Shop.ru)",
   "modelId": "EFEKTA_TH_DUO",
   "catalogId": -1,
   "status": "Test",
