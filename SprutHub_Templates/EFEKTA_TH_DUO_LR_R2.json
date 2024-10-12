@@ -2,7 +2,7 @@
   "name": "Датчик EFEKTA TH DUO Long Range",
   "manufacturer": "EfektaLab",
   "model": "EFEKTA_TH_DUO_LR",
-  "manufacturerId": "EfektaLab",
+  "manufacturerId": "(EfektaLab|EfektaLab_for_Zigbee-Shop.ru)",
   "modelId": "EFEKTA_TH_DUO_LR",
   "catalogId": -1,
   "status": "Test",
