@@ -173,10 +173,10 @@ const fzLocal = {
 };
 
 const definition = {
-        zigbeeModel: ['EFEKTA_TH_DUO_LR'],
-        model: 'EFEKTA_TH_DUO_LR',
+        zigbeeModel: ['EFEKTA_TH_DUO'],
+        model: 'EFEKTA_TH_DUO',
         vendor: 'EFEKTALAB',
-        description: 'EFEKTA_TH_DUO_LR - Smart device with internal and external temperature and humidity sensor and with a signal amplifier. Thermostat and hygrostat. Self-contained, powered by 2 AAA batteries',
+        description: 'EFEKTA_TH_DUO_LR - Smart device with internal and external temperature and humidity sensor. Thermostat and hygrostat. Self-contained, powered by 2 AAA batteries',
         fromZigbee: [fz.temperature, fzLocal.humidity, fz.battery, fzLocal.node_config, fzLocal.termostat_config, fzLocal.hydrostat_config, fzLocal.uptime],
         toZigbee: [tz.factory_reset, tzLocal.node_config, tzLocal.termostat_config, tzLocal.hydrostat_config],
 		meta: {multiEndpoint: true},
@@ -205,9 +205,9 @@ const definition = {
 		    e.battery(), e.battery_low(), e.battery_voltage(),
 			exposes.binary('config_report_enable', ea.STATE_SET, 'ON', 'OFF').withDescription('Enable reporting based on reporting configuration'),
 		    exposes.binary('comparison_previous_data', ea.STATE_SET, 'ON', 'OFF').withDescription('Enable сontrol of comparison with previous data'),
-			exposes.numeric('reading_interval', ea.STATE_SET).withUnit('Seconds').withDescription('Setting the sensor reading interval. Setting the time in seconds, by default 40 seconds')
+			exposes.numeric('reading_interval', ea.STATE_SET).withUnit('Seconds').withDescription('Setting the sensor reading interval. Setting the time in seconds, by default 20 seconds')
                 .withValueMin(15).withValueMax(360),
-			exposes.enum('tx_radio_power', ea.STATE_SET, [0, 4, 10, 19]).withDescription('Set TX Radio Power, dbm)'),
+			exposes.enum('tx_radio_power', ea.STATE_SET, [0, 4]).withDescription('Set TX Radio Power, dbm)'),
 			exposes.binary('poll_rate_on', ea.STATE_SET, 'ON', 'OFF').withDescription('Poll rate on off'),
 			exposes.numeric('uptime', ea.STATE).withUnit('Hours').withDescription('Uptime'),
 			exposes.binary('enable_temperature', ea.STATE_SET, 'ON', 'OFF').withDescription('Enable Temperature Control'),
