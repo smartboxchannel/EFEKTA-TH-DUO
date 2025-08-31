@@ -7,7 +7,7 @@
     "EfektaLab_for_Zigbee-Shop.ru"
   ],
   "modelIds": [
-    "EFEKTA_TH_DUO_LR"
+    "EFEKTA_TH_DUO"
   ],
   "template": [
     "/_Battery/BatteryPercentageRemaining.json"
@@ -115,8 +115,9 @@
           "attribute": "0000_MeasuredValue"
         }
       ],
+      "bind": true,
       "report": {
-        "min": 30,
+        "min": 20,
         "max": 1200,
         "change": 10
       }
@@ -129,8 +130,9 @@
           "attribute": "0000_MeasuredValue"
         }
       ],
+      "bind": true,
       "report": {
-        "min": 60,
+        "min": 40,
         "max": 2400,
         "change": 10
       }
@@ -143,6 +145,7 @@
           "attribute": "0006_StandardTime"
         }
       ],
+      "bind": true,
       "report": false
     },
     {
@@ -153,6 +156,7 @@
           "attribute": "0020_BatteryVoltage"
         }
       ],
+      "bind": true,
       "report": {
         "min": 1800,
         "max": 43200,
@@ -167,6 +171,7 @@
           "attribute": "0021_BatteryPercentageRemaining"
         }
       ],
+      "bind": true,
       "report": {
         "min": 1800,
         "max": 43200,
@@ -181,6 +186,7 @@
           "attribute": "003E_BatteryAlarmState"
         }
       ],
+      "bind": true,
       "report": {
         "min": 1800,
         "max": 43200,
@@ -195,8 +201,9 @@
           "attribute": "0000_MeasuredValue"
         }
       ],
+      "bind": true,
       "report": {
-        "min": 30,
+        "min": 20,
         "max": 1200,
         "change": 10
       }
@@ -209,8 +216,9 @@
           "attribute": "0000_MeasuredValue"
         }
       ],
+      "bind": true,
       "report": {
-        "min": 60,
+        "min": 40,
         "max": 2400,
         "change": 10
       }
@@ -225,7 +233,8 @@
       ],
       "name": "Прямая передача данных температуры на другое устройство",
       "description": "Привязка к другому устройству по данным температуры, для прямой передачи данных на другое устройство.",
-      "type": "String"
+      "type": "String",
+      "bind": true
     },
     {
       "link": [
@@ -237,7 +246,8 @@
       ],
       "name": "Прямая передача данных влажности воздуха на другое устройсвто",
       "description": "Привязка к другому устройству по данным влажности воздуха, для прямой передачи данных на другое устройство.",
-      "type": "String"
+      "type": "String",
+      "bind": true
     },
     {
       "link": [
@@ -249,7 +259,8 @@
       ],
       "name": "Прямая передача данных температуры на другое устройство",
       "description": "Привязка к другому устройству по данным температуры, для прямой передачи данных на другое устройство.",
-      "type": "String"
+      "type": "String",
+      "bind": true
     },
     {
       "link": [
@@ -261,7 +272,8 @@
       ],
       "name": "Прямая передача данных влажности воздуха на другое устройсвто",
       "description": "Привязка к другому устройству по данным влажности воздуха, для прямой передачи данных на другое устройство.",
-      "type": "String"
+      "type": "String",
+      "bind": true
     },
     {
       "link": [
@@ -273,7 +285,8 @@
       ],
       "name": "Прямое управление исполнительным устройством (реле, розетка, выключатель)",
       "description": "Работает биндинг только одного параметра (по температуре или влажности воздуха).",
-      "type": "String"
+      "type": "String",
+      "bind": true
     }
   ],
   "services": [
@@ -385,19 +398,11 @@
       "name": "Мощность радио передатчика",
       "description": "Чем выше мощность, тем выше энергопотребление, на максимальной мощности в 19dbm, потребление 100mA при передаче, при можности 4dbm потребление 50mA",
       "type": "Integer",
-      "value": 19,
+      "value": 4,
       "values": [
-        {
-          "value": 0,
-          "name": "0dbm"
-        },
         {
           "value": 4,
           "name": "4dbm"
-        },
-        {
-          "value": 10,
-          "name": "10dbm"
         },
         {
           "value": 19,
@@ -496,7 +501,7 @@
       "type": "Integer",
       "value": 0,
       "minValue": -40,
-      "maxValue": 125,
+      "maxValue": 70,
       "minStep": 1
     },
     {
@@ -512,7 +517,7 @@
       "type": "Integer",
       "value": 0,
       "minValue": -40,
-      "maxValue": 125,
+      "maxValue": 70,
       "minStep": 1
     },
     {
