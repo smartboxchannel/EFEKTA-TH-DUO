@@ -24,12 +24,6 @@
         {
           "endpoint": 1,
           "cluster": "0001_PowerConfiguration",
-          "attribute": "0236_Custom",
-          "zclDataType": "SIGNED_8_BIT_INTEGER"
-        },
-        {
-          "endpoint": 1,
-          "cluster": "0001_PowerConfiguration",
           "attribute": "0216_Custom",
           "zclDataType": "BOOLEAN"
         },
@@ -392,28 +386,6 @@
         {
           "endpoint": 1,
           "cluster": "0001_PowerConfiguration",
-          "attribute": "0236_Custom"
-        }
-      ],
-      "name": "Мощность радио передатчика",
-      "type": "Integer",
-      "value": 4,
-      "values": [
-        {
-          "value": 0,
-          "name": "0dbm"
-        },
-        {
-          "value": 4,
-          "name": "4dbm"
-        }
-      ]
-    },
-    {
-      "link": [
-        {
-          "endpoint": 1,
-          "cluster": "0001_PowerConfiguration",
           "attribute": "0216_Custom"
         }
       ],
@@ -590,3 +562,4 @@
     }
   ]
 }
+
