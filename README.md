@@ -4,8 +4,8 @@
 
 Продажа DIY Устройств - https://t.me/diydevmart
 
-Описание: https://telegra.ph/Datchik-temperatury-i-vlazhnosti-vozduha-EFEKTA-DUO--DUO-LR-03-06
+Описание: http://efektalab.com/TH_Max/
 
-![EFEKTA TH DUO Temperature and humidity sensor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-TH-DUO/main/Images/01.jpg) 
+![EFEKTA TH Max Temperature and humidity sensor](https://raw.githubusercontent.com/smartboxchannel/EFEKTA-TH-Max/main/Images/1.png) 
 
 
